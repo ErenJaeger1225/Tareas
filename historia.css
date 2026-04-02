@@ -1,0 +1,72 @@
+body {
+    background-color: antiquewhite;
+    margin: 40px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+    font-size: 70px;
+    font-family: cursive;
+    margin-bottom: 40px;
+}
+
+.contenedor {
+    display: flex !important;
+    flex-wrap: nowrap;
+    gap: 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.imagenes {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.imagenes img {
+    width: 100%;
+    border-radius: 12px;
+    border: 4px solid navy;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.texto {
+    width: 55%;
+    color: black;
+    font-size: 24px;
+    line-height: 1.7;
+}
+
+.texto p {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* Botón */
+button {
+    color: white !important;
+    background-color: navy;
+    padding: 16px 50px;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 50px auto 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: darkblue;
+    transform: scale(1.08);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
